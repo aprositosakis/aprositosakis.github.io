@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Alternative Tourism</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+
+            .navbar{
+                margin-bottom: 0px;
+                border-radius: 0;
+                background-color: white;
+                color: blue;
+                padding: 1% 0; 
+                font-size: 1.2em;
+                border: 0;
+            }
+
+            .navbar-brand{
+                float: left;
+                min-height: 25px;
+                padding: 0px 15px 0px;
+            }
+
+            .navbar-inverse .navbar-nav .active a,
+            .navbar-inverse .navbar-nav .active a:focus,
+            .navbar-inverse .navbar-nav .active a:hover {
+                color: gray;
+                background-color: whitesmoke;
+            }
+
+            body {
+                background-image: url("https://images.unsplash.com/photo-1496737018672-b1a6be2e949c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1191&q=80");
+                background-repeat: no-repeat;
+                background-attachment: fixed; 
+                background-size: cover; 
+            }
+
+            * {box-sizing: border-box;}
+
+            .container {
+                border-radius: 5px;
+                background-color: rgba(255,255,255,0.6);
+                padding: 20px; 
+                text-align:justify;
+            }
+            
+            .container:hover {
+                background-color: rgba(255,255,255,0.8);
+            }
+
+            #M1:hover{
+                background-color: lightsteelblue;
+            }
+
+            #M2:hover{
+                background-color: lightsteelblue;
+            }
+
+            #M3:hover{
+                background-color: lightsteelblue;
+            }
+
+            #M4:hover{
+                background-color: lightsteelblue;
+            }
+
+            #M5:hover{
+                background-color: lightsteelblue;
+            }
+
+            #M6:hover{
+                background-color: lightsteelblue;
+            }
+
+            #M7:hover{
+                background-color: lightsteelblue;
+            }
+
+            #M8:hover{
+                background-color: lightsteelblue;
+            }
+
+            #M9:hover{
+                background-color: lightsteelblue;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            #village{
+                max-width: 100%;
+                height: auto;
+            }
+
+            #village2{
+                max-width: 100%;
+                height: auto;
+            }
+
+            #karditsa{
+                max-width: 100%;
+                height: auto;
+            }
+
+            .responsive {
+                width: 100%;
+                height: auto;
+            }
+
+            #text{
+                width: 100%
+            }
+
+            #text2{
+                width: 100%
+            }
+
+            .frame {
+                float:right;
+                background: #fff;
+                padding: 6px;
+                margin-left:10px;
+                box-shadow: 1px 1px 2px rgba(40, 40, 40, 0.8);
+                -moz-box-shadow: 1px 1px 2px rgba(40, 40, 40, 0.8);
+                -webkit-box-shadow: 1px 1px 2px rgba(40, 40, 40, 0.8);
+            }
+
+            .frame2 {
+                float:left;
+                background: #fff;
+                padding: 6px;
+                margin-right:10px;
+                box-shadow: 1px 1px 2px rgba(40, 40, 40, 0.8);
+                -moz-box-shadow: 1px 1px 2px rgba(40, 40, 40, 0.8);
+                -webkit-box-shadow: 1px 1px 2px rgba(40, 40, 40, 0.8);
+            }
+
+            #xt:hover{
+                font-weight: bolder;
+            }
+
+            .footer {
+                position: static;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: rgba(255,255,255,0.5);
+                text-align: center;
+                padding: 5px;
+            }
+
+            .logos{
+                margin: 30px 30px;
+            }
+            
+            
+            #myBtn {
+                display: none;
+                position: fixed;
+                bottom: 20px;
+                right: 30px;
+                z-index: 99;
+                font-size: 18px;
+                border: none;
+                outline: none;
+                background-color: rgba(255,255,255,0.6);
+                color: gray;
+                cursor: pointer;
+                padding: 15px;
+                border-radius: 4px;
+            }
+
+            #myBtn:hover {
+                background-color: rgba(255,255,255,0.8);
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <!--Scroll To Top Button section-->
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    document.getElementById("myBtn").style.display = "block";
+                } else {
+                    document.getElementById("myBtn").style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+
+        <!--End of Scroll To Top Button section-->
+
+        <!--Navbar section-->
+
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle"
+                            data-toggle="collapse"
+                            data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.jpg" alt="logo"/>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="M1"><a href="index.html#">Home</a></li>
+                        <li id="M2"><a href="index.html#L1">Few Words About Greece</a></li>
+                        <li id="M3"><a href="index.html#myHeader">Places To Visit</a></li>
+                        <li id="M4"><a href="http://www.visitgreece.gr/" target="_blank">Visitgreece.gr</a></li>
+                        <li id="M5"><a href="index.html#googleMap">Map</a></li>
+                        <li id="M7"><a href="language.html">Basic Greek Words</a></li>
+                        <li class="active" id="M8"><a href="alternative_tourism.html">Alternative Tourism</a></li>
+                        <li id="M9"><a href="islands.html">20+1 Best Greek Islands</a></li>
+                        <li id="M6"><a href="form.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--End of Navbar section-->
+
+        <br>
+        <br>
+        <br>
+
+        <div>
+            <div class="container">
+
+                <h1>Alternative Tourism</h1>
+
+                <img src="img/alt_tourism.jpg" alt="alt_tourism" class="responsive"/>
+
+                <br>
+                <br>
+
+                <h3>Explore hiking trails, beautiful islands, Greek mountains
+                    and rivers, impressive museums, events and festivals and
+                    much more!</h3>
+
+                <br>
+
+                <h4>Cycling routes at Lake Plastira</h4>
+
+                <p> Lake Plastira is one of the top locations in Greece for
+                    alternative tourism, offering to the restless traveller
+                    unlimited activities in nature. Also known as "Little 
+                    Switzerland", Lake Plastira is
+                    surrounded by an idyllic landscape of incomparable natural
+                    beauty that captivates the mind at first sight. Dreamlike
+                    in all aspects, it is one of the largest artificial lakes
+                    in Greece created in a location where in antiquity we could
+                    find the confluence of the rivers Tavropos and Achelous
+                    It is a natural wonder that owes its existence to the
+                    inspired vision of General Nikolaos Plastiras (rightfully
+                    named after him) to create an impressive dam that would
+                    reinvigorate the entire region. Lake Plastira located in
+                    the wider area of Agrafa, lives every season at its fullest,
+                    promising to offer you the holiday you dreamed of.
+                </p>
+
+                <img id="village" src="img/plastira.jpg" alt="plastira"
+                     style="width: 600px; height: 267px;
+                     margin-right: 15px; float: left" class="frame"/><div id="text">
+                    The grandeur of the lake is crowned with the surrounding
+                    alpine peaks; snowcapped or green, with rushing streams that
+                    flirt with lacy coves, narrow inlets of water between cliffs
+                    that create fjord-like scenes and a single luscious green
+                    islet in the middle create a mind-blowing landscape which
+                    is mirrored in the emerald waters of the lake. In the
+                    vicinity you can find a handful of charming villages
+                    situated along the lakeshore or on the mountainous slopes
+                    which offer you an idyllic view of the lake!
+                </div>
+
+                <p>
+                    The clean waters of the lake alongside the particular
+                    geomorphology of the surrounding mountain ranges offer an
+                    ideal terrain for the enthusiasts of alternative tourism who
+                    wish to combine outdoor activities with recreation. Sports
+                    companies and facilities operate in the area, promising to
+                    introduce you to the 'dynamic' side of the lake.
+                </p>
+
+                <p> Put yourself in a sporty mood and enjoy magnificent walks
+                    along the lakeshore either on foot or by bicycle or on the
+                    back of a horse. Rent a canoe or a hydro bike and cross the
+                    blue aquatic mirror. Enjoy refreshing dives at Pezoula and
+                    Lamperou beaches, which is visited every August by dozens of
+                    swimmers, during the Panhellenic Swimming Crossing of the
+                    lake Plastira. Take off literally by paragliding and hang
+                    gliding in the air sport facilities situated on the
+                    mountaintops of Templa or Agonas (Neraida) and Koufolongos
+                    (Krioneri).
+                </p>
+
+                <br>
+                <img id="village2" src="img/aoos_voidomatis.jpg" alt="aoos_voidomatis" style="width: 600px; margin-left: 15px; float: right" class="frame2"/>
+                <h4>Aoos & Voidomatis</h4>
+
+                <div id="text2">Voidomatis River rises in Vikos gorge and follows an
+                    impressive waterway wreathed with age-long plane trees that
+                    border its bed and traditional stone bridges over the
+                    waters. Voidomatis River joins its crystal clear waters with
+                    those of Aoos River, in Konitsa’s plain. Aristi bridge is
+                    the meeting and departure point for rafting and kayak fans,
+                    near Aristi village – one of Zagorochoria (a group of
+                    traditional villages) right in the heart of the Vikos-Aoos
+                    National Park.The 5 km route presents no particular
+                    difficulties and requires no special technical skills. You
+                    will enjoy the lovely greenery, the springs, the small
+                    cascades of water and the stone bridges.
+                </div>
+
+                <br>
+
+                <p>A surprise awaits you midway: the deserted 16th century Agioi
+                    Anargyroi monastery. The location boasts perpendicular
+                    precipices and caves that had been used as monk retreats
+                    once; the lot is guaranteed to take your breath away! The
+                    body and soul will gain new strength before embarking on the
+                    final stage of the trip, as you row under Kato Kleidonia –
+                    a single arch bridge and a proper gem along the riverway.
+                    A refreshing dive in the freezing waters is an option for
+                    the brave; one that will bring this experience to a
+                    memorable end.
+                </p>
+
+                <br>
+
+                <h4>Travelling to the Mountainous Karditsa</h4>
+
+                <p> A lesser known tourist spot, Karditsa is full of surprises
+                    for the adventurer, the nature lover and the explorer of
+                    untouched traditions. Combining historic monuments and
+                    gastronomic pleasures with astonishing natural beauty all
+                    within easy reach for a one-day trip; it is a gateway to 
+                    numerous activities that will turn into unforgettable
+                    experiences. 
+                </p>
+
+                <img id="karditsa" src="img/karditsa.jpg" alt="karditsa" style="width: 500px; height: 367px;
+                     margin-right: 15px; float: left" class="frame"/>
+
+                <div id="text"> Just 10 kilometres away from the foot of the Pindos
+                    mountains, Karditsa marks the western end of the plain of
+                    Thessaly. With a good reputation for ecological awareness,
+                    sound urban planning and an extensive and impressive 
+                    network of pedestrian walkways and bicycle lanes, the city
+                    is also known as “the Amsterdam of Greece”. Bicycles are
+                    considered an integral part of Karditsa’s identity and you
+                    can easily rent yours, with an easybike card or a credit
+                    card, at one of the municipal bike rental stations in
+                    various parts of the town. Cycling is definitely the best
+                    way to explore the city and its nearby attractions, such as
+                    the Paparatza Forest or Grove of a Thousand Trees, which has
+                    served as a recreation spot since the Ottoman times.
+                </div>
+
+                <br>
+
+                <p> Karditsa is the newest city of Thessaly, but you can still
+                    capture the aura of its past strolling around Valvi Street,
+                    that leads to the impressive Municipal Market; a vestige of
+                    the architectural glories of the 19th century, currently
+                    home to various cultural events and a shopping center. Two
+                    neoclassical buildings that also deserve your attention are
+                    the old Pallas hotel, in Karditsa’s Central Square, and Arni
+                    hotel built in the typical 1920's French style. Having
+                    explored the city center, take a rest at the Pafsilipos
+                    Park, among couples, families and peacocks that roam freely
+                    on the grass. Then head back to the city center to enjoy its
+                    multiple sightseeing options such as the Archaeological
+                    Museum, the adjacent Municipal Art Gallery and the Municipal
+                    Folklore Museum.
+                </p>
+
+            </div> 
+
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <!--External link site-->
+
+        <div id="xt" class="container">
+            <div class="center">
+
+                <a href="https://www.alternative-tourism.gr/en/" target="_blank">
+                    <img src="img/alternative.jpg" alt="Alternative Tourism" class="responsive"/>
+                    <h1 id="L3">Alternative-tourism.gr</h1>
+                </a>
+                <h4> Alternative Tourism in Greece!</h4>
+
+                <p>Greece has it all! Alternative tourism in Greece to cater
+                    for the extreme sports enthusiast, the art lover and the
+                    festival goer!
+                </p>
+
+            </div>
+
+        </div>
+
+        <!--End of External link site-->
+
+        <br>
+        <br>
+        <br>
+
+        <!--Footer-->
+
+        <div class="footer">
+
+            <br>
+            <div class="logos">
+
+                <div style="float:left; padding:1px 1px;">
+                    <a href="http://www.facebook.com/visitgreecegr" target="_blank" style="border:none;"><img style="border:none;" src="img/facebook.png" alt="facebook"/></a>
+
+                </div>
+                <div style="float:left; padding:1px 1px;">
+                    <a href="http://instagram.com/visitgreecegr" target="_blank" style="border:none;"><img style="border:none;" src="img/instragram.png" alt="instragram"/></a>
+
+                </div>
+                <div style="float:left; padding:1px 1px;">
+                    <a href="http://twitter.com/visitgreecegr" target="_blank" style="border:none;"><img style="border:none;" src="img/twitter.png" alt="twitter"/></a>
+
+                </div>
+                <div style="float:left; padding:1px 1px;">
+                    <a href="http://www.youtube.com/visitgreecegr" target="_blank" style="border:none;"><img style="border:none;" src="img/youtube.png" alt="youtube"/></a>
+
+                </div>
+                <div style="float:left; padding:1px 1px;">
+                    <a href="http://pinterest.com/visitgreecegr/" target="_blank" style="border:none;"><img style="border:none;" src="img/pinterest.png" alt="pinterest"/></a>
+
+                </div>
+                <div style="float:left; padding:1px 1px">
+                    <a href="https://plus.google.com/100231537834041527322?prsrc=3" target="_blank" style="border:none;"><img style="border:none;" src="img/google_plus.png" alt="google_plus"/></a>
+
+                </div>
+                <div style="float:left; padding:1px 1px">
+                    <a href="http://visitgreece-gr.tumblr.com" target="_blank" style="border:none;"><img style="border:none;" src="img/tumblr.png" alt="tumblr"/></a>
+
+                </div> 
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+        </div>
+
+        <!--End of Footer-->
+
+    </body>
+</html>
+
+
